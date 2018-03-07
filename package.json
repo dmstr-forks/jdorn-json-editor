@@ -1,8 +1,8 @@
 {
-  "name": "@json-editor/json-editor",
+  "name": "@dmstr-forks/jdorn-json-editor",
   "title": "JSONEditor",
   "description": "JSON Schema based editor",
-  "version": "1.0.0-alpha1",
+  "version": "1.0.0-alpha.1",
   "main": "dist/jsoneditor.js",
   "author": {
     "name": "Jeremy Dorn",
@@ -10,11 +10,11 @@
     "url": "http://jeremydorn.com"
   },
   "bugs": {
-    "url": "https://github.com/json-editor/json-editor/issues"
+    "url": "https://github.com/dmstr-forks/jdorn-json-editor/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/json-editor/json-editor.git"
+    "url": "https://github.com/dmstr-forks/jdorn-json-editor.git"
   },
   "keywords": [
     "json",
@@ -26,7 +26,8 @@
     "build": "npm install && grunt",
     "start": "grunt watch",
     "test": "grunt test",
-    "serve-test": "grunt serve-test"
+    "serve-test": "grunt serve-test",
+    "publish": "npm publish --access public"
   },
   "license": "MIT",
   "engines": {
