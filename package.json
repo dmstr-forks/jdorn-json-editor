@@ -27,7 +27,9 @@
     "start": "grunt watch",
     "test": "grunt test",
     "serve-test": "grunt serve-test",
-    "publish": "npm publish --access public"
+    "preversion": "cd tests && docker-compose run --rm node npm run build && docker-compose up -d && docker-compose ps && docker-compose exec node npm test",
+    "version": "npm build && git add -A dist",
+    "postversion": "git push && git push --tags && rm -rf build/temp"
   },
   "license": "MIT",
   "engines": {
