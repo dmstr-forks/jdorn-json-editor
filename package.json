@@ -46,8 +46,6 @@
     "grunt-contrib-watch": "~1.0.0",
     "grunt-run": "^0.7.0",
     "mocha": "^2.0.1",
-    "np": "^2.18.3",
-    "npm-cli-login": "0.0.10",
     "selenium-webdriver": "^2.44.0"
   },
   "dependencies": {}
