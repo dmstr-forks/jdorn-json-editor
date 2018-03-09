@@ -28,7 +28,7 @@
     "test": "grunt test",
     "serve-test": "grunt serve-test",
     "preversion": "cd tests && docker-compose run --rm node npm run build && docker-compose up -d && docker-compose ps && docker-compose exec node npm test",
-    "version": "npm run build",
+    "version": "",
     "postversion": "git push && git push --tags && npm publish ./ --access public"
   },
   "license": "MIT",
