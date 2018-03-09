@@ -4,8 +4,6 @@ services:
     image: node
     volumes:
       - ../:/repo:delegated
-    env_file:
-      - .env
     working_dir: /repo
     command: npm run serve-test
     ports:
